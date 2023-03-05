@@ -1,0 +1,33 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="12" scrolly="48" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="MOmYT%z9qYGXrp(BM?UV" inline="false" x="110" y="110">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="boJES2ljewPGI,%$Sq=r">
+          <field name="FIELDNAME">tray_green</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="tl1%xs200!c8^$?nbkSv">
+          <value name="VALUE2">
+            <shadow type="materialList" id=".=wb|60l?fcmJ!t7X:(N">
+              <field name="FIELDNAME">tray_green</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="6xXMtqq%US$.u,q4By$l">
+              <field name="FIELDNAME">tray</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="801.6" viewport-y="28" viewport-w="546.4" viewport-h="328.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

@@ -1,0 +1,1816 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="true" scrollx="74.5113083171417" scrolly="-221.98251378998157" scale="0.7902012531462965">
+    <block xmlns="https://developers.google.com/blockly/xml" type="connector" id="ZMd@7PX,f[U8U?{{:R5*" x="-10" y="410">
+      <value name="VALUE">
+        <block type="loadSoundAdv" id="ZFGfE+}Z`HesLPt28sbj">
+          <field name="TYPE">SOUND</field>
+          <value name="URL">
+            <shadow type="text" id="gli9_O#L6`b7(GWh=2lP">
+              <field name="TEXT">http://sndup.net/bx5z</field>
+            </shadow>
+          </value>
+        </block>
+      </value>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="false" scrollx="264.3000511065294" scrolly="-437.5181231549312" scale="0.7708864565077738">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="MOmYT%z9qYGXrp(BM?UV" inline="false" x="-50" y="130">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="boJES2ljewPGI,%$Sq=r">
+          <field name="FIELDNAME">tray_blue</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="tl1%xs200!c8^$?nbkSv">
+          <value name="VALUE2">
+            <shadow type="materialList" id=".=wb|60l?fcmJ!t7X:(N">
+              <field name="FIELDNAME">tray_blue</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="6xXMtqq%US$.u,q4By$l">
+              <field name="FIELDNAME">tray</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="2k6%3TTW-XCmyxyl.NS!" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="-7?$U7q%-K(?[_+i4H7q">
+              <field name="FIELDNAME">tray_green</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="/W~54%wBTwQ:4)GL10^N">
+              <value name="VALUE2">
+                <shadow type="materialList" id="UpEE~N$qn|g1HP}xGR|x">
+                  <field name="FIELDNAME">tray_green</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="s@6kjS6tOFz#45@KrkK,">
+                  <field name="FIELDNAME">tray</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="WrVZ:ly2n#BTJc/GjhU8" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="ddkD1gYN;S$2T9ez2UH2">
+                  <field name="FIELDNAME">tray_maroon</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="D@)k2]fk.:{lGpO2Efk_">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="jI-_^cx9{sD?lCnj[k2q">
+                      <field name="FIELDNAME">tray_maroon</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id=";/IZ,XQcGZwp4^cTa_Y3">
+                      <field name="FIELDNAME">tray</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id="?=~eh-uYo]1G_H^~:*P?" inline="false">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="bnY}],^==Y3mAm-?F~KQ">
+                      <field name="FIELDNAME">motor_blue</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="assignMaterial" id="w:~^tK`v-j[=,V;tUe.0">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="t~=+q;^b])kKi4J4OrN{">
+                          <field name="FIELDNAME">motor_blue</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="V}j`l8~]naV8ukz;PN^@">
+                          <field name="FIELDNAME">motor</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="whenClicked" id="9ybIw;0wxqe.c^:a$nSD" inline="false">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="UZ)0nIQO3~6tL_zOG:f=">
+                          <field name="FIELDNAME">motor_pink</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="assignMaterial" id=".T6GoUZEjpRnGK)|Srr*">
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="h3Z{?2ALwGwa*^Z6W}SF">
+                              <field name="FIELDNAME">motor_pink</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="U9R?Xm4*?r2tOg*cOc6U">
+                              <field name="FIELDNAME">motor</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenClicked" id="t;vGK3e!Gce`qb-J`yb9" inline="false">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <field name="DOUBLE_CLICK">FALSE</field>
+                          <field name="LEFT_BUTTON">TRUE</field>
+                          <field name="MIDDLE_BUTTON">TRUE</field>
+                          <field name="RIGHT_BUTTON">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="objectList" id="#fm,?%rT,5T#OFvYni@c">
+                              <field name="FIELDNAME">motor_darkblue</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="assignMaterial" id="04KH=zqX{yRYvJ/txT~=">
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="5WYf5:t/vhQ_*QEztD`=">
+                                  <field name="FIELDNAME">motor_darkblue</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="@)af-|0+{mCoMa2k9GMC">
+                                  <field name="FIELDNAME">motor</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="whenClicked" id="dp6C5AfWejQ*z*_~/?N/" inline="false">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                              <field name="X_RAY">FALSE</field>
+                              <field name="DOUBLE_CLICK">FALSE</field>
+                              <field name="LEFT_BUTTON">TRUE</field>
+                              <field name="MIDDLE_BUTTON">TRUE</field>
+                              <field name="RIGHT_BUTTON">TRUE</field>
+                              <value name="VALUE">
+                                <shadow type="objectList" id="1qhEjJ8H3{*n$]VC~w+J">
+                                  <field name="FIELDNAME">stand_violet</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="assignMaterial" id="z;]PMDyE1I^pI[rO2lC9">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="zrXmQo}ttcr-#!zI2bWs">
+                                      <field name="FIELDNAME">stand_violet</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id=";y/2T$JbxRH19O]nRMQF">
+                                      <field name="FIELDNAME">stand</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="whenClicked" id="68*zPa[ZToG-?:!8/K3F" inline="false">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                  <field name="X_RAY">FALSE</field>
+                                  <field name="DOUBLE_CLICK">FALSE</field>
+                                  <field name="LEFT_BUTTON">TRUE</field>
+                                  <field name="MIDDLE_BUTTON">TRUE</field>
+                                  <field name="RIGHT_BUTTON">TRUE</field>
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="p^FS=f7)E-{h]5?b*QHE">
+                                      <field name="FIELDNAME">stand_green</field>
+                                    </shadow>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="assignMaterial" id="vei5{Q(tYYC20,40Z6J0">
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="NmeAjMT-x{,YP.OyI(F1">
+                                          <field name="FIELDNAME">stand_green</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="/XWwm|0KJ.#J@4?M=[aF">
+                                          <field name="FIELDNAME">stand</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="whenClicked" id="]r1zaz=p/R3B(GBD)GDL" inline="false">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                      <field name="X_RAY">FALSE</field>
+                                      <field name="DOUBLE_CLICK">FALSE</field>
+                                      <field name="LEFT_BUTTON">TRUE</field>
+                                      <field name="MIDDLE_BUTTON">TRUE</field>
+                                      <field name="RIGHT_BUTTON">TRUE</field>
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="AfB12P$G*u=:H4J+0=?d">
+                                          <field name="FIELDNAME">stand_blue</field>
+                                        </shadow>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="assignMaterial" id="ISUc/$fhp`.BvW0[!3q8">
+                                          <value name="VALUE2">
+                                            <shadow type="materialList" id="{,^@`;2^Yx?|7vDB5D^w">
+                                              <field name="FIELDNAME">stand_blue</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE1">
+                                            <shadow type="objectList" id="$ELd-Q2Z?Q35s9Pn?RmX">
+                                              <field name="FIELDNAME">stand</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="j[S.=bfxvy+Q@O){]XTX" inline="false" x="550" y="390">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Cx-?2,M8bl+5ytamXl|$">
+          <field name="FIELDNAME">tray_blue</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="$JU``$(N3H;dQd*Sm[Gv">
+          <value name="VALUE2">
+            <shadow type="materialList" id="A@JgV-d)Tq1.%!EEh6A$">
+              <field name="FIELDNAME">tray_blue</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="9T9oba!?wtIvNDuASm4J">
+              <field name="FIELDNAME">tray_show</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="+[d;u^:P7C%]Zdd(FbsO" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="ipxD4%j7kyuHKvFhKy|b">
+              <field name="FIELDNAME">tray_green</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="zq`PqDK?zBal`*opeNBI">
+              <value name="VALUE2">
+                <shadow type="materialList" id="TZ`viv(IyH[uP.vN6gN*">
+                  <field name="FIELDNAME">tray_green</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="JnTsY=[Ph3z.`|y$s302">
+                  <field name="FIELDNAME">tray_show</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="xB2+baQRKB*c5^SOjklg" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="[!0p[/t;;-j/Db[1zr0P">
+                  <field name="FIELDNAME">tray_maroon</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="3Mq6q!LdBD_%Fc:no}WC">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="*2g`D+/lPI/gBSi2caIC">
+                      <field name="FIELDNAME">tray_maroon</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="FbgOc^7.ysQ}m,}mp3J~">
+                      <field name="FIELDNAME">tray_show</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id="h*14kvG4!YZ.*GK,IAkV" inline="false">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="?:^,L!8kbamOaIzI[9K-">
+                      <field name="FIELDNAME">motor_pink</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="assignMaterial" id="RBG7s+|QIiAEE!saN+Qr">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id=")(pkEz=58hJWd!/={2)N">
+                          <field name="FIELDNAME">motor_pink</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="rhBh?e]owIV=~Yd$}BMw">
+                          <field name="FIELDNAME">motor_show</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="whenClicked" id="D{b._8$cX,e].lx^bq=D" inline="false">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="8{#J+8u[,UGkgotq,u!Y">
+                          <field name="FIELDNAME">motor_blue</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="assignMaterial" id="=F1ci3D_KDu;9XhLjvPR">
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="h)?n;8e`(bo8onDbC3ti">
+                              <field name="FIELDNAME">motor_blue</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="-d{@c_zluD_LqR$q@V`~">
+                              <field name="FIELDNAME">motor_show</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenClicked" id="DQJ%p{|2d.`P[;dOMl)m" inline="false">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <field name="DOUBLE_CLICK">FALSE</field>
+                          <field name="LEFT_BUTTON">TRUE</field>
+                          <field name="MIDDLE_BUTTON">TRUE</field>
+                          <field name="RIGHT_BUTTON">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="objectList" id="Y0:2,l_V,$=ZTIYP5(9E">
+                              <field name="FIELDNAME">motor_darkblue</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="assignMaterial" id="6A{S(TviJCB$H|53Ql1u">
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="8}2%Qh*}mp_w|9{#;fA/">
+                                  <field name="FIELDNAME">motor_darkblue</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="=WlC!^Uqpp5+8GVW}p$(">
+                                  <field name="FIELDNAME">motor_show</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="whenClicked" id="O)8!:I.4{8OgaggDO?Kb" inline="false">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                              <field name="X_RAY">FALSE</field>
+                              <field name="DOUBLE_CLICK">FALSE</field>
+                              <field name="LEFT_BUTTON">TRUE</field>
+                              <field name="MIDDLE_BUTTON">TRUE</field>
+                              <field name="RIGHT_BUTTON">TRUE</field>
+                              <value name="VALUE">
+                                <shadow type="objectList" id=";;$wdrs4cUtqyMcS%wZ_">
+                                  <field name="FIELDNAME">stand_violet</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="assignMaterial" id=")p6{mQ|*Fr%pFiWupKZY">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="gG!49KlERxigKqsRU%/D">
+                                      <field name="FIELDNAME">stand_violet</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="bw#2bafEYM?6NQEFnM@a">
+                                      <field name="FIELDNAME">stand_show</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="whenClicked" id="_RaKda=1S}c^lZCLld20" inline="false">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                  <field name="X_RAY">FALSE</field>
+                                  <field name="DOUBLE_CLICK">FALSE</field>
+                                  <field name="LEFT_BUTTON">TRUE</field>
+                                  <field name="MIDDLE_BUTTON">TRUE</field>
+                                  <field name="RIGHT_BUTTON">TRUE</field>
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="DX=zWa_dyFsvDSC!6q+r">
+                                      <field name="FIELDNAME">stand_blue</field>
+                                    </shadow>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="assignMaterial" id="jTPPf[N:Rb7^h+|jM@9Q">
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="bFC~+G+EIb,[=,I}j=bC">
+                                          <field name="FIELDNAME">stand_blue</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="et;,Q]{ujJ;d65HGeob,">
+                                          <field name="FIELDNAME">stand_show</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="whenClicked" id="jH=)lKwdaJ6=c`*_PEHW" inline="false">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                      <field name="X_RAY">FALSE</field>
+                                      <field name="DOUBLE_CLICK">FALSE</field>
+                                      <field name="LEFT_BUTTON">TRUE</field>
+                                      <field name="MIDDLE_BUTTON">TRUE</field>
+                                      <field name="RIGHT_BUTTON">TRUE</field>
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="$8zK{qS-1Q%XpKCl4Lql">
+                                          <field name="FIELDNAME">stand_green</field>
+                                        </shadow>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="assignMaterial" id="N?-/_]w5}F!+SE_N{6FN">
+                                          <value name="VALUE2">
+                                            <shadow type="materialList" id="F=(_Y0VKt/9~aGJQf8Uz">
+                                              <field name="FIELDNAME">stand_green</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE1">
+                                            <shadow type="objectList" id="F;?hm2!8qTanHpU@lSy1">
+                                              <field name="FIELDNAME">stand_show</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="k}V1Y`@(.xL:DFzpnQzY" inline="false" x="1210" y="650">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="$l%Z0p=5DLavd=vO1A=2">
+          <field name="FIELDNAME">motor_blue</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="aI$TX{lS/pa!z4/tI4cP">
+          <value name="VALUE2">
+            <shadow type="materialList" id="}mzm!EjT+B=,~(NCJL9p">
+              <field name="FIELDNAME">motor_blue</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="qqS(eH89}+G=fQ7,2[h{">
+              <field name="FIELDNAME">wing_main</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="$4U*u9?=Yd2SE;o[{tY2" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="EXHy(D@cL#m!`imP*f@H">
+              <field name="FIELDNAME">motor_pink</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="Ju%u^5GoC-`NgnCdnb@*">
+              <value name="VALUE2">
+                <shadow type="materialList" id="rol@ctf_Br#ohsaE1iUC">
+                  <field name="FIELDNAME">motor_pink</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="uPQPVyD7VBKuaK!XUT=F">
+                  <field name="FIELDNAME">wing_main</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="T!{xU3x=Bp7GzCEk-X6d" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="E6tjM]rebh9]A!|O*@MZ">
+                  <field name="FIELDNAME">motor_darkblue</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="MsE(u#G$H;_%cAhe5XU[">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="Sl9H2nJI9w:CjgEj]+Ot">
+                      <field name="FIELDNAME">motor_darkblue</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="}AP$#BB_?j,UK}PP+vR6">
+                      <field name="FIELDNAME">wing_main</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="h]uQ@]]k)U`uEvap/x^x" inline="false" x="-10" y="930">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="j/}R!*;b:wYtJ[%2@7P!">
+          <field name="FIELDNAME">motor</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playSound" id="(U!vu!DC`WmTuA~+s%J7">
+          <field name="LOOP">FALSE</field>
+          <value name="VALUE">
+            <block type="loadSoundAdv" id="vLa;H(+T+m_5#9Bsiowh">
+              <field name="TYPE">SOUND</field>
+              <value name="URL">
+                <shadow type="text" id="399?b,}U^97HC3d_*KoB">
+                  <field name="TEXT">http://sndup.net/bx5z</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="volume" id="],x4o.[]Y!JLb$W7`J,$" x="-150" y="1130">
+      <value name="VALUE">
+        <block type="loadSoundAdv" id="|+52vEuR3N)*^*dbAlpd">
+          <field name="TYPE">SOUND</field>
+          <value name="URL">
+            <shadow type="text" id="y%]Fg/O,@*4ON`6an/aY">
+              <field name="TEXT">http://sndup.net/bx5z</field>
+            </shadow>
+          </value>
+        </block>
+      </value>
+      <value name="VOLUME">
+        <shadow type="math_number" id="4Gk9Fiz}[_;ja%E|V+s;">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <tab name="Detials" type="SecondaryTab" active="false" scrollx="101.3623990338192" scrolly="-179.90887105355614" scale="0.4730292958663212">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="rs8!{U^{}W*wuGp(@?@I">status</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="#y_Hzl+sa,[acVx],lzi" x="210" y="230">
+      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+      <value name="VALUE">
+        <block type="text" id="xxw/BjmDDM`/VJu([PlC">
+          <field name="TEXT">normal</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="g8Lb-yI4su@nE_b}XT,x" inline="false" x="210" y="310">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="HuR5Np+2RY!ifI6d4W#z">
+          <field name="FIELDNAME">motor</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="9%@62PO1i_mvlhV:x%n,">
+          <mutation elseif="1"></mutation>
+          <value name="IF0">
+            <block type="logic_compare" id="7|wKib:LNN~=8~a-BTNo">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id=")hGpfa2(p~9Aw9qJSe=R">
+                  <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="@hC.Yya@B5(WrUs3xQy-">
+                  <field name="TEXT">normal</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="o,3XA(XbT*M*W]87Fsc)">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="0$.}vm!:$Ld$`Zm8o~0F">
+                  <field name="FIELDNAME">motor</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="WN)=54=B0cp-y$LWYR_+">
+                  <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                  <value name="VALUE">
+                    <block type="text" id="4^kQX|k67B972.p6KgtI">
+                      <field name="TEXT">zoomed</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="zoomCameraToObject" id="z4SMY?W)ozl_On]4vset">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                  <value name="OBJECT">
+                    <shadow type="objectList" id="GI|O1UuVJ(cF~`|5op]m">
+                      <field name="FIELDNAME">motor</field>
+                    </shadow>
+                  </value>
+                  <value name="DURATION">
+                    <shadow type="math_number" id="jx]CZ2PV$,V{2*G%A0(x">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="addAnnotation" id="{|{E~G7H(pY6IQ[s2/7R">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                      <value name="ANNOTATION">
+                        <shadow type="text" id="#8qU)T?jLG[!uFZHg:Gc">
+                          <field name="TEXT">1</field>
+                        </shadow>
+                      </value>
+                      <value name="TARGET">
+                        <shadow type="objectList" id="1zMCIDyBK)]qWK(_Cg$z">
+                          <field name="FIELDNAME">motor</field>
+                        </shadow>
+                      </value>
+                      <value name="CONTENTS">
+                        <shadow type="text" id="JWJ*!fRe6,A()U%ARhB.">
+                          <field name="TEXT">Motor</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="V~nIJI0*y^_;j-$fowbk">
+                          <field name="TEXT">mt1</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="0RQW#bz6w5x`0EPu5:q?">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="bmkOv%C;@dSPN[MaYDe:">
+                  <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="gmbF~E$6Nr5{]Qgu*j@Q">
+                  <field name="TEXT">zoomed</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id="|p,~l${=V(dNp!j)bpPc">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="H6mL~Y42b%m/$0=uO)}v">
+                  <field name="FIELDNAME">motor</field>
+                </shadow>
+              </value>
+              <value name="FROM">
+                <shadow type="math_number" id="2jED1v6eR_@|d9M|c3_)">
+                  <field name="NUM">0</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="so~m.Hz$XtQ[5ED!WjH#">
+                  <field name="NUM">20</field>
+                </shadow>
+              </value>
+              <value name="SPEED">
+                <shadow type="math_number" id="4IUBc$F;N;CFn7tO,l8c">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="p$+Vf)%oDs?7k#ER?h%O">
+                  <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                  <value name="VALUE">
+                    <block type="text" id=";[I?;J*ZjV@UuBIlmNet">
+                      <field name="TEXT">normal</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="O)+Q$Ft5hGs}_d`:}-Y#" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="fxJfhe@U[{rkl5/~63XF">
+              <field name="FIELDNAME">tray</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="controls_if" id=",eGV^o$tZ{?O?iD;77Cq">
+              <mutation elseif="1"></mutation>
+              <value name="IF0">
+                <block type="logic_compare" id="iRhtMCiW+-1Fd+~6Yar7">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="qqT3aSB}~}KA^4C7Hjf,">
+                      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="text" id="^nmfKcG7cywfdXJb]!WH">
+                      <field name="TEXT">normal</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO0">
+                <block type="playAnimationAdv" id="u#Kb?5ov88WiP(o#NMix">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="$e?R^=Cahe4zc)x:+uP?">
+                      <field name="FIELDNAME">tray</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="U8YRs;CR[XTA~Y#P~cEY">
+                      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                      <value name="VALUE">
+                        <block type="text" id="b$`0/f4nE#5(6y[ZORcs">
+                          <field name="TEXT">zoomed</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="zoomCameraToObject" id="%g:QQc!dKQ;91,QE`9]C">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="true"></mutation>
+                      <value name="OBJECT">
+                        <shadow type="objectList" id="FqG^[:OK=1d~~y!OZY7[">
+                          <field name="FIELDNAME">tray</field>
+                        </shadow>
+                      </value>
+                      <value name="DURATION">
+                        <shadow type="math_number" id="NVQ-,~akoiR7|[4Xs%~3">
+                          <field name="NUM">1</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="addAnnotation" id="A=x3G4B}P3SKZhn=k:u_">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                          <value name="ANNOTATION">
+                            <shadow type="text" id="Kp}Ff?6Gld{M`t5]#@2v">
+                              <field name="TEXT">3</field>
+                            </shadow>
+                          </value>
+                          <value name="TARGET">
+                            <shadow type="objectList" id="T,J54@q7`7/FUWudeCk2">
+                              <field name="FIELDNAME">tray</field>
+                            </shadow>
+                          </value>
+                          <value name="CONTENTS">
+                            <shadow type="text" id="wy}pAQA.CMeLgFnaq8N?">
+                              <field name="TEXT">Speed Switch</field>
+                            </shadow>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="RUS~8Infh8J[|%CKx0;n">
+                              <field name="TEXT">t1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <value name="IF1">
+                <block type="logic_compare" id="O!C5C=1~OwV$`n7ukR$7">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="u;wjW5WheBhS0lmQ72sv">
+                      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="text" id="Td],$9$:eJ2^mNS@a[hN">
+                      <field name="TEXT">zoomed</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO1">
+                <block type="playAnimationAdv" id="yb(qAJ~T1,RW`4:VMgCN">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">TRUE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="z8f[{P3#sighKZYwot1N">
+                      <field name="FIELDNAME">tray</field>
+                    </shadow>
+                  </value>
+                  <value name="FROM">
+                    <shadow type="math_number" id="O.{Cn#yzJ(kHPQHM*m|b">
+                      <field name="NUM">0</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="Qa_(1rV^ua4laJ),q*)s">
+                      <field name="NUM">20</field>
+                    </shadow>
+                  </value>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="*C-Dzk},6:|MlQV{:t;W">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="I]4kVRT(Qo~B:5/QMm5U">
+                      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                      <value name="VALUE">
+                        <block type="text" id="+.@_4~1tS3F:uggN!F1p">
+                          <field name="TEXT">normal</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="|R8;h^YN$P::Q=sl`wTD" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="@p#NCXD.2y|,zF9eJ@|u">
+                  <field name="FIELDNAME">stand</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="zoomCameraToObject" id="p0P%onAf3%(2]7gv7?sC">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                  <value name="OBJECT">
+                    <shadow type="objectList" id=".6xdEcLXxFKf[3t}`+t=">
+                      <field name="FIELDNAME">stand</field>
+                    </shadow>
+                  </value>
+                  <value name="DURATION">
+                    <shadow type="math_number" id="S]s##.#,}:N|gex{mNSs">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="addAnnotation" id="R+@F=J*tlQ~J1^Kz`YgM">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                      <value name="ANNOTATION">
+                        <shadow type="text" id="9m*QzNuVp~bYb}B5YU}s">
+                          <field name="TEXT">2</field>
+                        </shadow>
+                      </value>
+                      <value name="TARGET">
+                        <shadow type="objectList" id="9!6Ljtqv5KOMxLSYId|T">
+                          <field name="FIELDNAME">stand</field>
+                        </shadow>
+                      </value>
+                      <value name="CONTENTS">
+                        <shadow type="text" id="+UJ!K3ZTC#`L@T4T)Af*">
+                          <field name="TEXT">Stand</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="w.*C!Fn9Po])V4]3pbj+">
+                          <field name="TEXT">4444</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="1^kFJ)KZGz0qupWj)M/2" inline="false" x="10" y="1210">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id=";EJvAqu+|b=yyCy#_;q)">
+          <field name="FIELDNAME">wing1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="amMg.#655e^L-$4a.Yj$">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="[K7QW$D4.[gsM-*MaziP">
+              <field name="FIELDNAME">wing_main</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="88PbZ%XIXYMd5wcc)yeg" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="p$CV2o?s^!ax4q(/z0E,">
+              <field name="FIELDNAME">wing2</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="playAnimationAdv" id="c2U!qxp-LdBmoNe:Yj{v">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="DDN`6A:hnLnqvMt8(i7W">
+                  <field name="FIELDNAME">wing_main</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="^.-f_9rShX86?.vUb]]L" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="jWE#.{D^Z5+uRDJK+9I_">
+                  <field name="FIELDNAME">wing3</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="playAnimationAdv" id="6y]zlX*WxKgB3)UX~uYB">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="_u_,MVR-cqpBy/lPO5gW">
+                      <field name="FIELDNAME">wing_main</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id="0(F!hJYMBgND9vI0o!mG" inline="false">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="elu1OG|V$aD;Tpw[z?$]">
+                      <field name="FIELDNAME">wing_main</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="playAnimationAdv" id="HB5o[W,IPnnF]^WAQ/Le">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="zaIFLrPeFU$Yq|_rBXO2">
+                          <field name="FIELDNAME">wing_main</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="9%*Ay2^Obv,*dtZ%Y9;h" inline="false" x="1030" y="1170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="-9MkjLurk8m^,A|}R2z#">
+          <field name="FIELDNAME">tray_show</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="?C3h057VK=:NxNphHqRq">
+          <mutation elseif="1"></mutation>
+          <value name="IF0">
+            <block type="logic_compare" id="TKk.Pdt8x]dCf5MW#Dnf">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="Tzt=t,ACU$$citzJYH?V">
+                  <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="PQCL,m+plw[!V:18NQE=">
+                  <field name="TEXT">normal</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="Fp*z).ArTIB@DH1@P~C?">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="D].h_Gj:5wMK^Xgg]pny">
+                  <field name="FIELDNAME">tray_blue</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="s~!(SRB{{~aUs^*U*i[q">
+                  <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                  <value name="VALUE">
+                    <block type="text" id=")V*z%Orz,/*?f4ExxhPL">
+                      <field name="TEXT">zoomed</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="playAnimationAdv" id="9hjy8$cQjc%1YZU}3.98">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="LYzzf_P:nLEp`oO7^DK@">
+                      <field name="FIELDNAME">tray_green</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="w9%Q-E#`OyF{=hu9z`Jr">
+                      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                      <value name="VALUE">
+                        <block type="text" id="DxGTU(0R~O!9:--4N%%I">
+                          <field name="TEXT">zoomed</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="playAnimationAdv" id="4]q~*a5n*}gorv,ugXBg">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="*{?-p~7C8^QFG=|*$wpp">
+                          <field name="FIELDNAME">tray_maroon</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="variables_set" id="?`}qbFh^7D3VSz{9pgz^">
+                          <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                          <value name="VALUE">
+                            <block type="text" id="z+?[]3i8zvA!WIRCby^-">
+                              <field name="TEXT">zoomed</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="y9S$N_5+W({2cN0pj%L4">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="rXz:PPm5,_2+@)x,phRA">
+                  <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="*.;R2*9:vGn@0Q3F^[Bo">
+                  <field name="TEXT">zoomed</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id="6*(9#$XzJ-`TrheK@5MP">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="rD?`J*aLCU=P6Q/hfnN`">
+                  <field name="FIELDNAME">tray_blue</field>
+                </shadow>
+              </value>
+              <value name="FROM">
+                <shadow type="math_number" id="nhW6=pb5D0A1_c_Fl@F7">
+                  <field name="NUM">0</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="lmk`5cX}8SH~./0!4|*D">
+                  <field name="NUM">20</field>
+                </shadow>
+              </value>
+              <value name="SPEED">
+                <shadow type="math_number" id="%V8:Pe?Ir%7~|/cn|{[0">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id=".LW{NF#PXBah:k|Q!3w@">
+                  <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                  <value name="VALUE">
+                    <block type="text" id="h=Ud+Cmp.y-^h[UN*O~-">
+                      <field name="TEXT">normal</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="playAnimationAdv" id="NK?eEq9atYL~5{-o;,YS">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">TRUE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="H4(}WXhdIJ}^~F`va7}R">
+                      <field name="FIELDNAME">tray_green</field>
+                    </shadow>
+                  </value>
+                  <value name="FROM">
+                    <shadow type="math_number" id="2l|~lZEyAr3)(TBb[vDm">
+                      <field name="NUM">0</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="iEnIMHXTw5q:f7:@]_6/">
+                      <field name="NUM">20</field>
+                    </shadow>
+                  </value>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="-TjO;EI(9t03^0k|!L,m">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="TW~E40`+`?$j4`P4kU3%">
+                      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                      <value name="VALUE">
+                        <block type="text" id="lQ;Od|2iDq)~49g5LoS,">
+                          <field name="TEXT">normal</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="playAnimationAdv" id="9ZAW*pH|.9t~85Z-kJ|s">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">TRUE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="W8(aMbs`4#8tSy?4B`{/">
+                          <field name="FIELDNAME">tray_maroon</field>
+                        </shadow>
+                      </value>
+                      <value name="FROM">
+                        <shadow type="math_number" id="d6{G/~/_I^@dKfw:XPZo">
+                          <field name="NUM">0</field>
+                        </shadow>
+                      </value>
+                      <value name="TO">
+                        <shadow type="math_number" id="tERI89sD/}vG.`u_%zR1">
+                          <field name="NUM">20</field>
+                        </shadow>
+                      </value>
+                      <value name="SPEED">
+                        <shadow type="math_number" id="Q3%Rd!?@R*l3@L;fe.ur">
+                          <field name="NUM">1</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="variables_set" id="^]ft0k-XrC/05@|YnZ{P">
+                          <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                          <value name="VALUE">
+                            <block type="text" id="kK*:]90yUn2hJmJ12|jc">
+                              <field name="TEXT">normal</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="qRlG0%8$:h#~t!p^YcGv" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="{Xlu{L!%za^WVmqfzRO4">
+              <field name="FIELDNAME">stand_show</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="controls_if" id="HT+n^=W$K7XpFh*O.4AU">
+              <mutation elseif="1"></mutation>
+              <value name="IF0">
+                <block type="logic_compare" id="Oj#^i117@W,^T)Z#RWSz">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="-qYCv0h;G%r-0nWB3e`C">
+                      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="text" id="t@Y9)#TM..=-:?.HB^s.">
+                      <field name="TEXT">normal</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO0">
+                <block type="playAnimationAdv" id="bn=eQF7$hC+T}H=nSSP=">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="=dJWv=`nqw4LhIP4M{as">
+                      <field name="FIELDNAME">stand_blue</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="Mnuo}p_GNR*?)]Qj?Fp|">
+                      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                      <value name="VALUE">
+                        <block type="text" id="JreHw;L4mU@KX,0Qze@!">
+                          <field name="TEXT">zoomed</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="playAnimationAdv" id="q.w}Rfeg^|s%%(k(:x?m">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="$ydWy:wRT-]F).4_Xz@-">
+                          <field name="FIELDNAME">stand_green</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="variables_set" id="xkqZ.DQw@;Y(f*mUq2SB">
+                          <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                          <value name="VALUE">
+                            <block type="text" id="Hx.(3!mF[E@lo`l#z+@3">
+                              <field name="TEXT">zoomed</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="playAnimationAdv" id="H^76(a0p3{Fi9*T{cUd@">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                          <field name="REVERSED">FALSE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <shadow type="animationList" id="pVsw;O/lR#=YPP[1o~hW">
+                              <field name="FIELDNAME">stand_violet</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="variables_set" id="z[[0AXF$`[`lQ~6XtARp">
+                              <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                              <value name="VALUE">
+                                <block type="text" id="C+;a{vg}a1-)C}2,v1nT">
+                                  <field name="TEXT">zoomed</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <value name="IF1">
+                <block type="logic_compare" id="f9Up)E_/bp}+M4k`]64s">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="F7#iG+PhBO})3bh[/yUU">
+                      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="text" id="ci$@BTm~0J6]tz{1]sh^">
+                      <field name="TEXT">zoomed</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO1">
+                <block type="playAnimationAdv" id="l`mXzPz6Cq~F@V((%P;r">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">TRUE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="IDS/Z}hP97VVoID*W;eo">
+                      <field name="FIELDNAME">stand_blue</field>
+                    </shadow>
+                  </value>
+                  <value name="FROM">
+                    <shadow type="math_number" id="*c|[i?@FGzjNCS,~d.vo">
+                      <field name="NUM">0</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="_%mV@+4z8zbyiw)yPL7n">
+                      <field name="NUM">20</field>
+                    </shadow>
+                  </value>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="B=3#ZX{@MvtN5*(VMh9z">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="7iKCY/::q%92DYoW@##,">
+                      <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                      <value name="VALUE">
+                        <block type="text" id="z,K*pC%=JA|g7@kM$wOj">
+                          <field name="TEXT">normal</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="playAnimationAdv" id="53ibOF{*|TpDtfo(%u8.">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">TRUE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="sEkcczUXiffV;N/7$=8,">
+                          <field name="FIELDNAME">stand_green</field>
+                        </shadow>
+                      </value>
+                      <value name="FROM">
+                        <shadow type="math_number" id=":j%@cFtlU#b%T8s4#dsn">
+                          <field name="NUM">0</field>
+                        </shadow>
+                      </value>
+                      <value name="TO">
+                        <shadow type="math_number" id="XVy5[.}aH?c}BYzk(MoP">
+                          <field name="NUM">20</field>
+                        </shadow>
+                      </value>
+                      <value name="SPEED">
+                        <shadow type="math_number" id="b)mVw-JFW1:4s.{.Q3dz">
+                          <field name="NUM">1</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="variables_set" id=":^{*Z%(G%vo$Az{ax0p+">
+                          <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                          <value name="VALUE">
+                            <block type="text" id="/eD9X8rys{M48Mqa5IKs">
+                              <field name="TEXT">normal</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="playAnimationAdv" id="A@%-+xLk(]RDVluio^o=">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                          <field name="REVERSED">TRUE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <shadow type="animationList" id="R6q5d971{bCJoc:f*IUE">
+                              <field name="FIELDNAME">stand_violet</field>
+                            </shadow>
+                          </value>
+                          <value name="FROM">
+                            <shadow type="math_number" id="1-U]b7S8lLA#GZU!R4$R">
+                              <field name="NUM">0</field>
+                            </shadow>
+                          </value>
+                          <value name="TO">
+                            <shadow type="math_number" id=")shafJ+bHp`{Z~C{Bb/l">
+                              <field name="NUM">20</field>
+                            </shadow>
+                          </value>
+                          <value name="SPEED">
+                            <shadow type="math_number" id="s%,s]!r+ecqwC8DQ)76t">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="variables_set" id="h|PdIdcgWkpb^.6aj;4*">
+                              <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                              <value name="VALUE">
+                                <block type="text" id="N:CY0o{5iOX|DlCqO.@z">
+                                  <field name="TEXT">normal</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="o[~^Q4fcXC3_!xMO1X*o" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="@h+/xZyqwbRo*MjiNERQ">
+                  <field name="FIELDNAME">motor_show</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="controls_if" id="uyE9od|g(wKxZJrQ3Qk[">
+                  <mutation elseif="1"></mutation>
+                  <value name="IF0">
+                    <block type="logic_compare" id="[`C]+Y;DZw9l.$4dLc,B">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="n-Z}AaT3RX,){tvRS|Rx">
+                          <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="11Sc=kq1oo#2?z})/Rou">
+                          <field name="TEXT">normal</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="playAnimationAdv" id="Hm*@!4At?(T9,=wT!*6Z">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="EAzl^T$9*-;.X~yB!I!Z">
+                          <field name="FIELDNAME">motor_blue</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="variables_set" id="Kcyln5PB%.tVoKBLAHm.">
+                          <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                          <value name="VALUE">
+                            <block type="text" id="#V`r5m)D/2MN[i,~Y|H/">
+                              <field name="TEXT">zoomed</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="playAnimationAdv" id="R;znSA.]pGJtzg^wJ):P">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                          <field name="REVERSED">FALSE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <shadow type="animationList" id="S?M4p8hnR//~V6AsuaHI">
+                              <field name="FIELDNAME">motor_pink</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="variables_set" id="IVP}48K!vWdAMU[SoxP-">
+                              <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                              <value name="VALUE">
+                                <block type="text" id="zazDF(PEP:ajdocY79c5">
+                                  <field name="TEXT">zoomed</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="playAnimationAdv" id="PFkEgz)Wd#b=X0,(MUBh">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+                              <field name="REVERSED">FALSE</field>
+                              <field name="LOOP">LoopOnce</field>
+                              <value name="VALUE">
+                                <shadow type="animationList" id="G2~+UJV84BiE/q[VCQn}">
+                                  <field name="FIELDNAME">motor_darkblue</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="variables_set" id="*^u6|4M-CQSn~NOHV*/}">
+                                  <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="A=89ryrEY)#Z5sO5JcN%">
+                                      <field name="TEXT">zoomed</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </statement>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <value name="IF1">
+                    <block type="logic_compare" id="^g2dIXi6U,)31IfjB@wp">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="rc!z~=4Id68h,hcXpMHU">
+                          <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="text" id="Yro~[Q##|J%tqm0~*bVN">
+                          <field name="TEXT">zoomed</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO1">
+                    <block type="playAnimationAdv" id=":,#!ip(N6F0F7]YJ36!V">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                      <field name="REVERSED">TRUE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="#Q2D:;w+gk9h^+bqX`bn">
+                          <field name="FIELDNAME">motor_blue</field>
+                        </shadow>
+                      </value>
+                      <value name="FROM">
+                        <shadow type="math_number" id=",XpcGk01SaVLr@tHQpp:">
+                          <field name="NUM">0</field>
+                        </shadow>
+                      </value>
+                      <value name="TO">
+                        <shadow type="math_number" id="*I^8v3jQ,G44?+j22Myx">
+                          <field name="NUM">20</field>
+                        </shadow>
+                      </value>
+                      <value name="SPEED">
+                        <shadow type="math_number" id="H{Q;Nt7qp;@D/9`)oI1W">
+                          <field name="NUM">1</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="variables_set" id="8P2ebeb|=MMXTVI)ULB~">
+                          <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                          <value name="VALUE">
+                            <block type="text" id="p{XpD$_d//H3L.Ynm]~g">
+                              <field name="TEXT">normal</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="playAnimationAdv" id="1LGz+=GN!Q%}vIf]{U:[">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                          <field name="REVERSED">TRUE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <shadow type="animationList" id="?GhP|mDwp.iBP/:9j{M+">
+                              <field name="FIELDNAME">motor_darkblue</field>
+                            </shadow>
+                          </value>
+                          <value name="FROM">
+                            <shadow type="math_number" id="/(W|Hf2g7x^_^%:qmL;}">
+                              <field name="NUM">0</field>
+                            </shadow>
+                          </value>
+                          <value name="TO">
+                            <shadow type="math_number" id="H}f:^]ZJK{-Ejz}Fb-1p">
+                              <field name="NUM">20</field>
+                            </shadow>
+                          </value>
+                          <value name="SPEED">
+                            <shadow type="math_number" id="/;,s)O,4B{DNZfCDmlP8">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="variables_set" id="aiOYPpE62mRElasjb~ZM">
+                              <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                              <value name="VALUE">
+                                <block type="text" id="$bpYQ{V]L-1Wy_ME#ed~">
+                                  <field name="TEXT">normal</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="playAnimationAdv" id="DLu2$R-7jI-fbuk1/=^*">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                              <field name="REVERSED">TRUE</field>
+                              <field name="LOOP">LoopOnce</field>
+                              <value name="VALUE">
+                                <shadow type="animationList" id="b:{yr.x=rS`gA0`sS:`F">
+                                  <field name="FIELDNAME">motor_pink</field>
+                                </shadow>
+                              </value>
+                              <value name="FROM">
+                                <shadow type="math_number" id="SYoeN-EEP`79xSKatG;b">
+                                  <field name="NUM">0</field>
+                                </shadow>
+                              </value>
+                              <value name="TO">
+                                <shadow type="math_number" id="uG|M9+r8IHS?V(p2U2ZP">
+                                  <field name="NUM">20</field>
+                                </shadow>
+                              </value>
+                              <value name="SPEED">
+                                <shadow type="math_number" id="=bv}Keju-}%6CyCVG[6_">
+                                  <field name="NUM">1</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="variables_set" id="X@;F:K1!g6y]3Vo)gw-|">
+                                  <field name="VAR" id="rs8!{U^{}W*wuGp(@?@I">status</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="#+EnJ=#BJnDjx=Y4(5{*">
+                                      <field name="TEXT">normal</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </statement>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="801.6" viewport-y="28" viewport-w="546.4" viewport-h="328.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

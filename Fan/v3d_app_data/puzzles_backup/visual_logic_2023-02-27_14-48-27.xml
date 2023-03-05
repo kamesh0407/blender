@@ -1,0 +1,353 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="91.49782606849476" scrolly="-99.6591963179635" scale="0.5568374306141695">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="MOmYT%z9qYGXrp(BM?UV" inline="false" x="-50" y="130">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="boJES2ljewPGI,%$Sq=r">
+          <field name="FIELDNAME">tray_blue</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="tl1%xs200!c8^$?nbkSv">
+          <value name="VALUE2">
+            <shadow type="materialList" id=".=wb|60l?fcmJ!t7X:(N">
+              <field name="FIELDNAME">tray_blue</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="6xXMtqq%US$.u,q4By$l">
+              <field name="FIELDNAME">tray</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="2k6%3TTW-XCmyxyl.NS!" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="-7?$U7q%-K(?[_+i4H7q">
+              <field name="FIELDNAME">tray_green.001</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="/W~54%wBTwQ:4)GL10^N">
+              <value name="VALUE2">
+                <shadow type="materialList" id="UpEE~N$qn|g1HP}xGR|x">
+                  <field name="FIELDNAME">tray_green</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="s@6kjS6tOFz#45@KrkK,">
+                  <field name="FIELDNAME">tray</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="WrVZ:ly2n#BTJc/GjhU8" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="ddkD1gYN;S$2T9ez2UH2">
+                  <field name="FIELDNAME">tray_maroon</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="D@)k2]fk.:{lGpO2Efk_">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="jI-_^cx9{sD?lCnj[k2q">
+                      <field name="FIELDNAME">tray_maroon</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id=";/IZ,XQcGZwp4^cTa_Y3">
+                      <field name="FIELDNAME">tray</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id="?=~eh-uYo]1G_H^~:*P?" inline="false">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="bnY}],^==Y3mAm-?F~KQ">
+                      <field name="FIELDNAME">motor_blue</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="assignMaterial" id="w:~^tK`v-j[=,V;tUe.0">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="t~=+q;^b])kKi4J4OrN{">
+                          <field name="FIELDNAME">motor_blue</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="V}j`l8~]naV8ukz;PN^@">
+                          <field name="FIELDNAME">motor</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="whenClicked" id="9ybIw;0wxqe.c^:a$nSD" inline="false">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="UZ)0nIQO3~6tL_zOG:f=">
+                          <field name="FIELDNAME">motor_pink</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="assignMaterial" id=".T6GoUZEjpRnGK)|Srr*">
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="h3Z{?2ALwGwa*^Z6W}SF">
+                              <field name="FIELDNAME">motor_pink</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="U9R?Xm4*?r2tOg*cOc6U">
+                              <field name="FIELDNAME">motor</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenClicked" id="t;vGK3e!Gce`qb-J`yb9" inline="false">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <field name="DOUBLE_CLICK">FALSE</field>
+                          <field name="LEFT_BUTTON">TRUE</field>
+                          <field name="MIDDLE_BUTTON">TRUE</field>
+                          <field name="RIGHT_BUTTON">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="objectList" id="#fm,?%rT,5T#OFvYni@c">
+                              <field name="FIELDNAME">motor_darkblue</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="assignMaterial" id="04KH=zqX{yRYvJ/txT~=">
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="5WYf5:t/vhQ_*QEztD`=">
+                                  <field name="FIELDNAME">motor_darkblue</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="@)af-|0+{mCoMa2k9GMC">
+                                  <field name="FIELDNAME">motor</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="whenClicked" id="dp6C5AfWejQ*z*_~/?N/" inline="false">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                              <field name="X_RAY">FALSE</field>
+                              <field name="DOUBLE_CLICK">FALSE</field>
+                              <field name="LEFT_BUTTON">TRUE</field>
+                              <field name="MIDDLE_BUTTON">TRUE</field>
+                              <field name="RIGHT_BUTTON">TRUE</field>
+                              <value name="VALUE">
+                                <shadow type="objectList" id="1qhEjJ8H3{*n$]VC~w+J">
+                                  <field name="FIELDNAME">stand_violet</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="assignMaterial" id="z;]PMDyE1I^pI[rO2lC9">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="zrXmQo}ttcr-#!zI2bWs">
+                                      <field name="FIELDNAME">stand_violet</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id=";y/2T$JbxRH19O]nRMQF">
+                                      <field name="FIELDNAME">stand</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="whenClicked" id="68*zPa[ZToG-?:!8/K3F" inline="false">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                  <field name="X_RAY">FALSE</field>
+                                  <field name="DOUBLE_CLICK">FALSE</field>
+                                  <field name="LEFT_BUTTON">TRUE</field>
+                                  <field name="MIDDLE_BUTTON">TRUE</field>
+                                  <field name="RIGHT_BUTTON">TRUE</field>
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="p^FS=f7)E-{h]5?b*QHE">
+                                      <field name="FIELDNAME">stand_green</field>
+                                    </shadow>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="assignMaterial" id="vei5{Q(tYYC20,40Z6J0">
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="NmeAjMT-x{,YP.OyI(F1">
+                                          <field name="FIELDNAME">stand_green</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="/XWwm|0KJ.#J@4?M=[aF">
+                                          <field name="FIELDNAME">stand</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="whenClicked" id="]r1zaz=p/R3B(GBD)GDL" inline="false">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                      <field name="X_RAY">FALSE</field>
+                                      <field name="DOUBLE_CLICK">FALSE</field>
+                                      <field name="LEFT_BUTTON">TRUE</field>
+                                      <field name="MIDDLE_BUTTON">TRUE</field>
+                                      <field name="RIGHT_BUTTON">TRUE</field>
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="AfB12P$G*u=:H4J+0=?d">
+                                          <field name="FIELDNAME">stand_ygreen</field>
+                                        </shadow>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="assignMaterial" id="ISUc/$fhp`.BvW0[!3q8">
+                                          <value name="VALUE2">
+                                            <shadow type="materialList" id="{,^@`;2^Yx?|7vDB5D^w">
+                                              <field name="FIELDNAME">stand_ygreen</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE1">
+                                            <shadow type="objectList" id="$ELd-Q2Z?Q35s9Pn?RmX">
+                                              <field name="FIELDNAME">stand</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id=".C+;*)-(HJeWf_qE(.=!" inline="false" x="490" y="890">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="X0gT4KJ0wEiF0O(1n/ko">
+          <field name="FIELDNAME">stand</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="zoomCameraToObject" id="UXDrQ[pSvBQj|tpk@U]e">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <value name="OBJECT">
+            <shadow type="objectList" id="j%*8u.N45kiQKKDKJg(i">
+              <field name="FIELDNAME">stand</field>
+            </shadow>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="F[Uv~v23/UePR=M.6E-C">
+              <field name="NUM">3</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id=";.eY7.2PKNNoYtn*8(S4" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="+58CE.6Y{HP~Yewn(?_s">
+              <field name="FIELDNAME">motor</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="zoomCameraToObject" id="(T-VDA9ifR!|?Yi6,S;(">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <value name="OBJECT">
+                <shadow type="objectList" id="2iZBCaqbzvZUKomvM8[O">
+                  <field name="FIELDNAME">motor</field>
+                </shadow>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="M*yJ9$PEV+l+f(Pea)U4">
+                  <field name="NUM">3</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="Y3d:]}f;/^IaTajy|-Y3" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="9ph=vtvhaL8T5lS+?8(v">
+                  <field name="FIELDNAME">tray</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="zoomCameraToObject" id="OzgBGu0g9#FKrHRcN$pF">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                  <value name="OBJECT">
+                    <shadow type="objectList" id="M;t)2C9S;y2l.^EqD(Gk">
+                      <field name="FIELDNAME">tray</field>
+                    </shadow>
+                  </value>
+                  <value name="DURATION">
+                    <shadow type="math_number" id="pB-,OBzguFMa7[g!A20y">
+                      <field name="NUM">3</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="801.6" viewport-y="28" viewport-w="546.4" viewport-h="328.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
